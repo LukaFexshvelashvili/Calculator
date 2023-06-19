@@ -1,0 +1,65 @@
+.Calculator {
+    height: 600px;
+    width: 400px;
+    background: rgba(10, 10, 67, 0.19);
+    border-radius: 15px;
+    border: 2px solid rgba(15, 15, 102, 0.394);
+    overflow: hidden;
+    input {
+        height: 80px;
+        width: 100%;
+        background: rgba(9, 9, 60, 0.19);
+        border: 0;
+        text-align: end;
+        padding: 0px 20px;
+        outline: none;
+        font-size: 32px;
+        color: white;
+        font-family: "Poppins", sans-serif;
+    }
+    .AnswerBlock {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        padding: 0 20px;
+        height: 45px;
+        width: 100%;
+        background: rgba(0, 0, 5, 0.19);
+        font-size: 24px;
+        color: rgba(255, 255, 255, 0.6);
+        font-family: "Poppins", sans-serif;
+    }
+    .ButtonsRow {
+        display: flex;
+        padding: 20px;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .ControlButtons {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .ButtonsRowwer {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        .Bt {
+            background-color: rgb(15, 9, 58);
+        }
+    }
+    .Bt {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+        aspect-ratio: 1;
+        border-radius: 50%;
+        background-color: rgb(255, 106, 0);
+        color: rgb(255, 255, 255);
+        font-size: 28px;
+        font-family: "Poppins", sans-serif;
+        cursor: pointer;
+        border: 0;
+    }
+}
